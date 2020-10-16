@@ -1,0 +1,43 @@
+@font-face {
+  font-family: GameofThrones;
+  src: local(GameofThrones),
+    url(../fonts/GameofThrones.woff2) format("woff2"),
+    url(../fonts/GameofThrones.woff) format("woff"),
+    url(../fonts/GameofThrones.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/*@font-face {
+  font-family: Lato;
+  src: local(Lato-Regular),
+    url(/path/to/Lato-Regular.woff2) format("woff2"),
+    url(/path/to/Lato-Regular.woff) format("woff"),
+    url(/path/to/Lato-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}*/
+
+.Text-Style-2 {
+  font-family: GameofThrones;
+  font-size: 176px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Text-Style {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}

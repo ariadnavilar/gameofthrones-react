@@ -1,0 +1,43 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 36px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .navigation {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .navigation {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .navigation {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}

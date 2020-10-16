@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1670px) {
+  .title {
+    font-size: 180px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1670px) {
+  .title {
+    font-size: 150px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .title {
+    font-size: 60px;
+  }
+}
+
+  .got {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  .containertitle {
+    align-self: center;
+  }
+
+  .green {
+    background-image: url("./assets/image1.svg");
+    background-position: center center;
+    width: auto;
+    height: 940px;
+    padding-top: 170px;
+  }

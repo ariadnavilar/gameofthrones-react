@@ -1,0 +1,37 @@
+.roundimg {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+.centered {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.vertical {
+  height: 100%;
+  width: 3px;
+  background-color: white;
+  display: flex;
+}
+
+.button {
+  border-color: white;
+  border-radius: 50%;
+  background-color: transparent;
+  border-style: double;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.number {
+  font-size: 22px;
+  font-family: GameofThrones;
+}
